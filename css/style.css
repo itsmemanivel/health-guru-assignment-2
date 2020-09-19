@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+main {
+    margin: 10%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+button {
+    width: 50px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-disabled {
+    background-color: rgba(66, 66, 252, 0.24) !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.selected {
+    background-color: red !important;
+    color: #fff;
+    font-weight: bold
+}
